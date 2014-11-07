@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3750232385">
+    <data-source source="LOCAL" name="Rails redmine_work_after_build: production" uuid="63d25504-8287-4dae-84b2-9c5f5c758c80">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://192.168.8.155:3306/bitnami_redmine</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfdddfcfdfc6dfc9dfc5dfc7dfcfdf9bdf98df99</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails redmine_work_after_build: development" uuid="cfd8f156-c554-4595-9ab2-79d7c93e21e4">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/redmine_development</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails redmine_work_after_build: test" uuid="b32d79b9-91d2-4056-9308-104a36c89e38">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/redmine_test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails redmine_work_after_build: production" uuid="63d25504-8287-4dae-84b2-9c5f5c758c80">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails redmine_work_after_build: development" uuid="cfd8f156-c554-4595-9ab2-79d7c93e21e4">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails redmine_work_after_build: test" uuid="b32d79b9-91d2-4056-9308-104a36c89e38">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
