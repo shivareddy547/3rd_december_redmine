@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1268a450-75b9-4700-acaa-0bf74c9b537c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/redmine_reject_locked_reports/app/views/reject_locked_reports/_reports_header.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/redmine_reject_locked_reports/app/views/reject_locked_reports/_unlocked_report.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/redmine_reject_locked_reports/lib/application_helper_patch.rb" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/AgileDwarf/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/AgileDwarf/app/controllers/adburndown_controller.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/AgileDwarf/app/controllers/adsprintinl_controller.rb" afterPath="" />
@@ -1051,17 +1048,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/redmine_lightbox" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/redmine_mention_plugin" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/redmine_monitoring_controlling" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/plugins/redmine_reject_locked_reports/app/views/reject_locked_reports/_reject_report.html.erb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redmine_wktime" afterPath="$PROJECT_DIR$/redmine_wktime" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/redmine_wktime" afterPath="$PROJECT_DIR$/plugins/redmine_wktime" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__redmine.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Production__redmine.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/redmine_default_assignee/assets/javascripts/default_assignee.js" afterPath="$PROJECT_DIR$/plugins/redmine_default_assignee/assets/javascripts/default_assignee.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/redmine_default_assignee/init.rb" afterPath="$PROJECT_DIR$/plugins/redmine_default_assignee/init.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/redmine_timelog_importer/init.rb" afterPath="$PROJECT_DIR$/plugins/redmine_timelog_importer/init.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/redmine_work_after_build.iml" afterPath="$PROJECT_DIR$/.idea/redmine_work_after_build.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/redmine_default_assignee/config/routes.rb" afterPath="$PROJECT_DIR$/plugins/redmine_default_assignee/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/redmine_timelog_importer/app/controllers/timelog_import_controller.rb" afterPath="$PROJECT_DIR$/plugins/redmine_timelog_importer/app/controllers/timelog_import_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redmine.iws" />
@@ -1095,7 +1084,7 @@
       <file leaf-file-name="wktime_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugins/redmine_wktime/app/controllers/wktime_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.3398693" vertical-offset="23405" max-vertical-offset="27195">
+            <state vertical-scroll-proportion="-0.6532663" vertical-offset="23405" max-vertical-offset="27195">
               <caret line="1543" column="80" selection-start-line="1543" selection-start-column="4" selection-end-line="1543" selection-end-column="80" />
               <folding />
             </state>
@@ -1278,10 +1267,6 @@
               <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_wktime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1297,107 +1282,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_wktime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wktime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_25_nov_after_build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_25_nov_after_build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_wktime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_25_nov_after_build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_25_nov_after_build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_wktime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_25_nov_after_build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_25_nov_after_build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_wktime" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_25_nov_after_build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="redmine_25_nov_after_build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
+              <option name="myItemId" value="redmine_default_assignee" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1608,18 +1493,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="24" width="1383" height="876" extended-state="7" />
-    <editor active="true" />
+    <frame x="57" y="24" width="1383" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30216902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30216902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39281288" sideWeight="0.50112194" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32984293" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5204461" sideWeight="0.4988781" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961586" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981189" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45477074" sideWeight="0.4988781" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45477074" sideWeight="0.4988781" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39900866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2063,7 +1948,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/plugins/redmine_wktime/app/controllers/wktime_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3398693" vertical-offset="23405" max-vertical-offset="27195">
+        <state vertical-scroll-proportion="-0.6532663" vertical-offset="23405" max-vertical-offset="27195">
           <caret line="1543" column="80" selection-start-line="1543" selection-start-column="4" selection-end-line="1543" selection-end-column="80" />
           <folding />
         </state>
