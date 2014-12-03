@@ -21,6 +21,6 @@ Redmine::Plugin.register :redmine_timelog_importer do
  project_module :timelog_importer do
     permission :timelog_import, :timelog_import => :index
   end
-  menu :project_menu, :timelog_importer, { :controller => 'timelog_import', :action => 'index' }, :caption => :label_timelog_import, :before => :settings, :param => :project_id
+  menu :project_menu, :timelog_importer, { :controller => 'timelog_import', :action => 'index' }, :caption => :label_import_time_log, :before => :settings, :param => :project_id
   RedmineApp::Application.config.session_store :active_record_store
 end

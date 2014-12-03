@@ -25,6 +25,6 @@ Redmine::Plugin.register :redmine_default_assignee do
     permission :default_assignee_setup, :default_assignee_setup => :index
     permission :result,  {:default_assignee_setup => [:result]},:public => true
   end
- # menu :project_menu, :set_default_assignee, { :controller => 'default_assignee_setup', :action => 'index' }, :caption => :lable_default_assignee, :before => :settings, :param => :project_id
+  menu :project_menu, :set_default_assignee, { :controller => 'default_assignee_setup', :action => 'index' }, :caption => :lable_default_assignee, :before => :settings, :param => :project_id
 
 end

@@ -159,7 +159,7 @@ class TimelogImportController < ApplicationController
        @project.issues.each do |each_issue|
           each_issue.custom_field_values.each_with_index do |c,index|
            custom_field =CustomField.where(:id=>c.custom_field_id)
-          if custom_field.present? && (custom_field.last.name=="External ID")
+          if custom_field.present? && (custom_field.last.name=="ExternalID")
 
            if each_issue.custom_field_values[index].to_s == row[attrs_map["id"]]
 
@@ -258,6 +258,12 @@ class TimelogImportController < ApplicationController
        data_array=[]
        failed_issues = session[:failed_issues]
        headers = session[:headers]
+       p "+++++===failed_issues++++++="
+       p failed_issues
+       p "+++++=end headers ++++"
+       p headers
+       p "++++++++++end ++++++++"
+
        student_csv = CSV.generate do |csv|
        csv << headers
        failed_issues.each do |id, issue|
@@ -266,6 +272,9 @@ class TimelogImportController < ApplicationController
            data = data.unpack('U*').pack('U*') if data.is_a?(String) rescue nil
            data_array << data
          end
+         p "+++++==data_array+++=="
+         p data_array
+         p "+++end +++"
          csv<< data_array
        end
      end

@@ -4,9 +4,9 @@
     <data-source source="LOCAL" name="Rails redmine_work_after_build: production" uuid="63d25504-8287-4dae-84b2-9c5f5c758c80">
       <driver-ref>mysql</driver-ref>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.8.155:3306/bitnami_redmine</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1/redmine_after_time_build</jdbc-url>
       <user-name>root</user-name>
-      <user-password>dfdddfcfdfc6dfc9dfc5dfc7dfcfdf9bdf98df99</user-password>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails redmine_work_after_build: development" uuid="cfd8f156-c554-4595-9ab2-79d7c93e21e4">
